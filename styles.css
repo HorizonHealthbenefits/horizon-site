@@ -106,10 +106,11 @@ nav.site-nav a.navlink {
   align-items: center;
   justify-content: center;
 }
-.hero-art .shield-wm {
-  width: 55%;
-  opacity: 0.9;
-  filter: drop-shadow(0 12px 24px rgba(0,0,0,0.15));
+.hero-art .hero-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 25%;
 }
 .hero-art .caption-chip {
   position: absolute;
