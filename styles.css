@@ -87,7 +87,7 @@ nav.site-nav a.navlink {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 0% top;
+  object-position: 0% 25%;
   z-index: 0;
 }
 .hero-fade {
@@ -97,10 +97,10 @@ nav.site-nav a.navlink {
   background:
     linear-gradient(100deg,
       var(--white) 0%,
-      var(--white) 32%,
-      rgba(255,255,255,0.92) 42%,
-      rgba(255,255,255,0.55) 58%,
-      rgba(255,255,255,0.15) 75%,
+      var(--white) 64%,
+      rgba(255,255,255,0.85) 69%,
+      rgba(255,255,255,0.35) 78%,
+      rgba(255,255,255,0.08) 88%,
       rgba(255,255,255,0) 92%
     ),
     linear-gradient(0deg, var(--white) 0%, rgba(255,255,255,0) 18%, rgba(255,255,255,0) 82%, var(--white) 100%);
