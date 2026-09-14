@@ -167,18 +167,26 @@ section { padding: 68px 0; }
 }
 .help-card {
   border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 28px 24px;
+  border-top: 3px solid var(--orange);
+  border-radius: 4px 4px 14px 14px;
+  padding: 30px 26px;
   background: var(--white);
+  box-shadow: 0 6px 20px rgba(38,33,28,0.05);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.help-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 26px rgba(38,33,28,0.09);
 }
 .help-card .icon {
-  width: 46px; height: 46px;
-  border-radius: 10px;
+  width: 52px; height: 52px;
+  border-radius: 50%;
   background: var(--peach);
   display: flex; align-items: center; justify-content: center;
-  font-size: 22px;
-  margin-bottom: 16px;
+  color: var(--orange);
+  margin-bottom: 18px;
 }
+.help-card .icon svg { width: 24px; height: 24px; }
 .help-card h3 { font-size: 18px; margin: 0 0 8px; }
 .help-card p { font-size: 14.5px; color: var(--warmgray); margin: 0; }
 
@@ -201,12 +209,20 @@ section { padding: 68px 0; }
   border-radius: 12px;
   padding: 28px 16px;
 }
-.stat .num { font-size: 34px; font-weight: 700; color: var(--orange-light); }
+.stat .num { font-size: 30px; font-weight: 700; color: var(--orange-light); white-space: nowrap; }
 .stat .label { font-size: 13.5px; color: #C9C4BC; margin-top: 6px; }
 .why-points {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
+}
+.why-points .point-num {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--orange-light);
+  margin-bottom: 8px;
 }
 .why-points .point h4 { font-size: 15.5px; margin: 0 0 6px; color: var(--white); }
 .why-points .point p { font-size: 14px; color: #C9C4BC; margin: 0; }
