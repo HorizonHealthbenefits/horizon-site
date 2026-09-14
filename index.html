@@ -39,6 +39,11 @@
           <a class="btn btn-primary" href="#contact">Request a Call</a>
           <a class="btn btn-outline" href="#help">See What We Help With</a>
         </div>
+        <ul class="trust-list">
+          <li><span class="check">✓</span> Contracted with 10+ carriers</li>
+          <li><span class="check">✓</span> No pressure, ever</li>
+          <li><span class="check">✓</span> Real agents, real answers</li>
+        </ul>
       </div>
     </div>
   </section>
@@ -146,17 +151,19 @@
       </div>
       <div class="contact-box">
         <form id="request-call-form">
-          <div class="form-row">
-            <label for="name">Full name</label>
-            <input type="text" id="name" name="name" required autocomplete="name">
-          </div>
-          <div class="form-row">
-            <label for="phone">Phone number</label>
-            <input type="tel" id="phone" name="phone" required autocomplete="tel">
-          </div>
-          <div class="form-row">
-            <label for="email">Email address</label>
-            <input type="email" id="email" name="email" required autocomplete="email">
+          <div class="form-row-group">
+            <div class="form-row">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" required autocomplete="name">
+            </div>
+            <div class="form-row">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" required autocomplete="email">
+            </div>
+            <div class="form-row">
+              <label for="phone">Phone number</label>
+              <input type="tel" id="phone" name="phone" required autocomplete="tel">
+            </div>
           </div>
           <div class="form-row">
             <label for="reason">What can we help you with?</label>
@@ -169,19 +176,44 @@
     </div>
   </section>
 
+  <!-- FINAL CTA -->
+  <section class="final-cta">
+    <div class="wrap">
+      <p class="eyebrow">Ready when you are</p>
+      <h2>Let's find the coverage that actually fits.</h2>
+      <p class="sub">No pressure, no scripts — just a straight conversation with a real agent.</p>
+      <a class="btn btn-primary" href="#contact">Request a Call</a>
+    </div>
+  </section>
+
 </main>
 
 <footer class="site-footer">
   <div class="wrap">
-    <div class="foot-top">
-      <a class="brand" href="#top">
-        <img src="assets/logo-icon.png" alt="Horizon Health Benefits">
-        HORIZON HEALTH BENEFITS
-      </a>
-      <div class="foot-contact">
-        Matthew Anderson — Sales Manager &amp; Co-Owner<br>
-        <a href="tel:3152122835">315-212-2835</a><br>
-        <a href="mailto:Matthew@horizonhealthbenefitsllc.com">Matthew@horizonhealthbenefitsllc.com</a>
+    <div class="foot-grid">
+      <div class="foot-col foot-brand-col">
+        <a class="brand" href="#top">
+          <img src="assets/logo-icon.png" alt="Horizon Health Benefits">
+          HORIZON HEALTH BENEFITS
+        </a>
+        <div class="foot-contact">
+          Matthew Anderson — Sales Manager &amp; Co-Owner<br>
+          <a href="tel:3152122835">315-212-2835</a><br>
+          <a href="mailto:Matthew@horizonhealthbenefitsllc.com">Matthew@horizonhealthbenefitsllc.com</a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h4>Navigation</h4>
+        <a href="#help">What We Help With</a>
+        <a href="#why">Why Horizon</a>
+        <a href="#team">Our Team</a>
+        <a href="#contact">Request a Call</a>
+      </div>
+      <div class="foot-col">
+        <h4>Coverage We Help With</h4>
+        <a href="#help">Life Insurance</a>
+        <a href="#help">Health Coverage</a>
+        <a href="#help">Policy Reviews</a>
       </div>
     </div>
     <div class="disclosure">
